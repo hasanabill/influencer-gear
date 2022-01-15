@@ -170,8 +170,10 @@ Mobile Devices
         font-size: 28px;
     }
     .first-container > article{
-        width: 100%;
-        margin-left: 18px;
+        width: 90%;
+        margin: 0;
+        padding-left: 18px;
+        padding-right: 18px;
     }
     .first-container div{
         width: 100%;
