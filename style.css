@@ -195,7 +195,7 @@ Mobile Devices
 Tablet Devices
 ---------------- */
 @media only screen and (min-width: 689px) and (max-width: 992px) {
-    
+    /* Top Section */
     .first-container{
         display: flex;
         flex-direction: column;
@@ -208,11 +208,13 @@ Tablet Devices
     .links{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
+
     }
     /* Cards */
     .cards{
         grid-template-columns: repeat(2, 1fr);
         margin: 0;
-        margin-bottom: 50px;
+        margin-top: 100px;
+        margin-bottom: 100px;
     }
 }
