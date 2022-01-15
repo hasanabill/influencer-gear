@@ -1,6 +1,7 @@
 /* ------------ Utilities --------------- */
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 
@@ -82,4 +83,34 @@ Cards
     font-weight: bold;
     font-size: 14px;
     color: #787885;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    justify-items: center;
+    padding: 20px 40px;
+}
+.card{
+    width: 329px;
+    border-radius: 3px;
+    padding-top: 17px;
+    padding-left: 24px;
+    box-shadow: 1px 1px 40px #55545486;
+}
+/* ------------ Footer Section ----------- */
+footer{
+    background: #0A0826;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+footer > h2, p{
+    color: white;
+}
+.social-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
 }
