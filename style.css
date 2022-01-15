@@ -60,11 +60,18 @@ li > a{
 .first-container a{
     text-decoration: none;
     color: white;
+    font-weight: bold;
     padding: 10px 24px;
     background: #E02C6D;
     border-radius: 41px;
 }
+.first-container a:hover{
+    color: #E02C6D;
+    background-color: white;
+    border: 2px solid #E02C6D;
+}
 /* ----------------
+
 Links
 ---------------- */
 .links{
@@ -131,6 +138,37 @@ Cards
     font-weight: 700;
     padding-left: 90%;
     padding-top: 40px;
+}
+/* Last Section */
+.last-container{
+    text-align: center;
+    font-size: 30px;
+    justify-items: center;
+}
+input{
+    border: 2px solid #E02C6D;
+    border-radius: 20px;
+    font-size: 20px;
+    height: 30px;
+    width: 300px;
+    margin-right: 10px;
+}
+button {
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+    background-color: #E02C6D;
+    height: 35px;
+    width: 100px;
+    margin-left: 10px;
+}
+.last-container div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+    
 }
 /* ------------ Footer Section ----------- */
 footer{
@@ -212,6 +250,17 @@ Mobile Devices
     .button a{
         padding-left: 70%;
         padding-top: 25px;
+    }
+    .last-container h1{
+        font-size: 28px;
+    }
+    input{
+        font-size: 15px;
+        margin-right: 5px;
+        width: 200px;
+    }
+    button{
+        margin-left: 5px;
     }
 }
 
