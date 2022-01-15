@@ -190,3 +190,29 @@ Mobile Devices
         margin-bottom: 50px;
     }
 }
+
+/* ----------------
+Tablet Devices
+---------------- */
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+    
+    .first-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .first-container > article{
+        margin-left: 20px;
+    }
+    
+    /* Links */
+    .links{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    /* Cards */
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0;
+        margin-bottom: 50px;
+    }
+}
